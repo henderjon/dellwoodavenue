@@ -1,13 +1,7 @@
-@font-face {
-	font-family: PublicSans;
-	src: url(../fonts/public-sans/PublicSans-Regular.otf);
-}
-
-/* @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap'); */
-
 body {
-	/* font-family: 'Source Sans Pro'; */
-	font-family: PublicSans;
+	/* font-family: 'Literata'; */
+	font-family: 'Public Sans';
+	font-style: normal;
 	font-size: .8rem;
 	width: 400px;
 	margin: 0 auto 12px;
