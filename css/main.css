@@ -1,0 +1,58 @@
+@font-face {
+	font-family: PublicSans;
+	src: url(../fonts/public-sans/PublicSans-Regular.otf);
+}
+
+/* @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap'); */
+
+body {
+	/* font-family: 'Source Sans Pro'; */
+	font-family: 'Literata';
+	font-weight: 500;
+	font-size: .8rem;
+	width: 400px;
+	margin: 0 auto 12px;
+	padding: 0 6px 0;
+	background-color: #FFFFEC;
+	color: #163047;
+}
+
+header, footer{
+	text-align: center;
+}
+
+footer{
+	margin: 24px 0;
+}
+
+footer note{
+	font-size: .6rem;
+}
+
+.spirit{
+	text-align: center;
+	border-bottom: 1px solid grey;
+}
+
+.cocktails{
+	list-style-type: none;
+	margin: 0 0 24px 0;
+	padding: 0;
+}
+
+.cocktail{
+	display: flex;
+	justify-content: space-between;
+	margin: 4px 0;
+}
+
+.name{
+	display: block;
+	flex-wrap: nowrap;
+}
+
+.description{
+	display: block;
+	max-width: 60%;
+	text-align: right;
+}
