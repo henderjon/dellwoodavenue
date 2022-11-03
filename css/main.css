@@ -1,6 +1,7 @@
 body {
-	/* font-family: 'Literata'; */
-	font-family: 'Public Sans';
+	/* font-family: 'Literata';
+	font-family: 'Public Sans'; */
+	font-family: 'IBM Plex Sans', sans-serif;
 	font-style: normal;
 	font-size: .8rem;
 	width: 400px;
